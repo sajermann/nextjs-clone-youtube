@@ -1,9 +1,10 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 
 export default function Home() {
   return (
-    <div>
-      Clone Youtube Next Jsssss
-    </div>
+    <Button color="secondary" variant="outlined">
+      Hello World
+    </Button>
   );
 }
